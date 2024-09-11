@@ -33,14 +33,12 @@ a,
   position: absolute;
   top: 10px;
   right: 10px;
-  background-color: #f0f0f0;
   padding: 2px 6px;
   border-radius: 5px;
 }
 
 #language-switch a {
   text-decoration: none;
-  color: #816f6f;
   font-size: small;
   font-weight: bold;
 }
@@ -236,7 +234,7 @@ section {
     font-weight: 400;
     font-style: normal;
     margin-top: 30px;  /* Adjust this value to increase space above */
-    margin-bottom: -5px; /* Adjust this value to decrease space below */
+    margin-bottom: 0.1px; /* Adjust this value to decrease space below */
     color: black;
 
 }
