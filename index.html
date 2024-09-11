@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JE Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" href="./assets/logo 2.png" type="image/x-icon">
+  </head>
+  <body>
+    <nav id="language-switch">
+      <a href="index_es.html">Español</a>
+    </nav>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <img 
+        src="assets/logo 2.png" 
+        alt="Logo" />
+      </div>  
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo"> <img 
+        src="assets/logo 2.png" 
+        alt="Logo" /></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Jose Escarraman</h1>
+        <p class="section__text__p2">Data-Driven Social</p>
+        <p class="section__text__p3">Analyst and Researcher</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CV_in.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/josé-gabriel-escarraman-reyes-41a68b1b6/'"
+          />
+          <img
+            src="./assets/upwork.png"
+            alt="My Upwork profile"
+            class="icon"
+            onclick="location.href='https://https://www.upwork.com/freelancers/~010c7bc2e878449e67?mp_source=share'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://https://github.com/josegabriel8?tab=repositories'"
+          />
+
+        </div>
+        <div class="motto">
+            <p class="section__text__p2">"Data is more than just numbers and charts; it's <br> the narrative that drives impactful change."</p>
+        </div> 
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Data analytics and research</p>
+            </div>
+            <div class="details-container">
+                <a href="https://www.intec.edu.do/oferta-academica/grado/economia-y-negocios/item/economia" target="_blank">
+                    <img
+                        src="./assets/intec.png"
+                        alt="Education icon1"
+                        class="icon"
+                    />
+                </a>
+                <a href="https://corsi.unibo.it/2cycle/StatisticalSciences" target="_blank">
+                    <img
+                        src="./assets/bologna.png"
+                        alt="Education icon2"
+                        class="icon"
+                    />
+                </a>
+              <h3>Education</h3>
+              <p> B.Sc. in Economics<br/>M.Sc. in Statistical Sciences</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                Born and raised in Santiago, Dominican Republic. Currently living in Granada, Spain. <br/>
+                <br/>I'm an analyst and researcher with a strong focus on data analysis applied to social issues, health, and demographics. My background in Economics and Statistics, along with my experience in the public sector and clinical research, has made me a versatile professional capable of tackling complex challenges from different angles.  I am proactive, responsible, and creative, characteristics that allow me to adapt to diverse environments and find innovative solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="text-container2">
+        <ul>
+            <li><strong>Motivation:</strong> Using data not only to solve problems but to generate a positive impact on society.</li>
+            <li><strong>Goals:</strong>  To position myself as an expert in data analysis for social issues, helping organizations and individuals make informed decisions. Additionally, I am passionate about learning and continuing to grow in order to have a more conscious and positive control over my future.</li>
+        </ul>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Software knowledge</h2>
+            <div class="article-container1">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>R</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PowerBi</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img 
+                src="./assets/checkmark.png" 
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>SAS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>QGIS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <h2 class="experience-sub-title">Language Knowledge</h2>
+              <article>
+                <img
+                  src="./assets/language.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>English</h3>
+                  <p>TOEFL certified</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/language.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Italian</h3>
+                  <p>CILS certified</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Proven Skills</h2>
+            <div class="article-container2">
+              <article>
+                <img
+                  src="./assets/bulb.png"
+                  alt="Data Manipulation and Visualization icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Data Manipulation & Visualization</h4>
+                  <p>Proficient in data cleaning, querying, large datasets, and creating visualizations like dashboards, graphs, and maps to deliver actionable insights.</p>
+                </div>
+              </article>
+          
+              <article>
+                <img
+                  src="./assets/bulb.png"
+                  alt="Statistical Methods icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Statistical Methods</h4>
+                  <p>Expertise in descriptive analysis, inference, modeling, cluster analysis, and econometrics for solving analytical challenges.</p>
+                </div>
+              </article>
+          
+              <article>
+                <img
+                  src="./assets/bulb.png"
+                  alt="Biostatistics icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Biostatistics</h4>
+                  <p>Experienced in survival analysis, health analytics, demography, epidemiology, and genomic data analysis (PLINK, GWAS).</p>
+                </div>
+              </article>
+          
+              <article>
+                <img
+                  src="./assets/bulb.png"
+                  alt="Research icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Research</h4>
+                  <p>Skilled in interdisciplinary research, report writing, and storytelling, with a focus on data-driven insights across social and health topics.</p>
+                </div>
+              </article>
+            </div>
+          </div>          
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./proyectos/biodem2.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Comparative Analysis of Life Tables Between Ethnicities in the USA</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/josegabriel8/Biodemography'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./proyectos/Biodem_project.pdf')"
+              >
+                PDF
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./proyectos/sociogenomics2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Sociogenomics</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/josegabriel8/Sociogenomics'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./proyectos/sociogenomics.pdf')"
+              >
+                PDF
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./proyectos/myeloma3.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Second Line Therapy Survival Analysis for Multiple Myeloma Patients</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/josegabriel8/Thesis-'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./proyectos/myeloma.pdf')"
+              >
+                PDF
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./proyectos/diabetes3.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Factors Influencing In-Hospital Stay for Diabetic Patients</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/josegabriel8/Diabetes-Project'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./proyectos/Diabetes.pdf')"
+              >
+                PDF
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./proyectos/Maps.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Catalogue: GIS Maps</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/josegabriel8/Maps-GIS-'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./proyectos/map catalogue.pdf')"
+              >
+                PDF
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./proyectos/powerbi3.PNG"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Catalogue: Dashboard (PowerBi)</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://app.powerbi.com/view?r=eyJrIjoiMmQyZWZlMDUtYTMzYi00ZTRmLWI2NzktODU1YTM0YjhlMTE2IiwidCI6Ijg3M2FiNjNmLWUxNTQtNGQ0OC04ZTI5LTA5MTA4NmUwMTg1NSIsImMiOjF9'"
+              >
+                Education and Health
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://app.powerbi.com/view?r=eyJrIjoiNWRiNDY1MDEtYWU0MC00MDY1LThlZTYtNjI4YjI5OWY1OWZjIiwidCI6Ijg3M2FiNjNmLWUxNTQtNGQ0OC04ZTI5LTA5MTA4NmUwMTg1NSIsImMiOjF9'"
+              >
+                Public Investment
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://app.powerbi.com/view?r=eyJrIjoiNGRmOTIxMDItNzEyYy00N2M4LTk3ZDYtODhmNzZjYjIwMGY4IiwidCI6Ijg3M2FiNjNmLWUxNTQtNGQ0OC04ZTI5LTA5MTA4NmUwMTg1NSIsImMiOjF9&pageName=ReportSection'"
+              >
+                Fishing activity
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./proyectos/rural6.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Institutional Publication: <br> Considerations for Rural Development Planning in Vulnerable Areas</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./proyectos/Rural_project.pdf')"
+              >
+                PDF
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:josegabriel.escarraman@gmail.com">josegabriel.escarraman@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/josé-gabriel-escarraman-reyes-41a68b1b6/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Jose Escarraman. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
