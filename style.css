@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f4f6fc;
+  background-color: #ffffff;
 }
 
 html {
@@ -30,8 +30,7 @@ a,
 /* DESKTOP NAV */
 
 #language-switch {
-  position: absolute;
-  top: 10px;
+  top: 15px;
   right: 10px;
   padding: 2px 6px;
   border-radius: 5px;
@@ -58,7 +57,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 a {
@@ -399,7 +398,7 @@ section {
 .experience-details-container {
   display: block;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .article-container1 {
@@ -431,7 +430,7 @@ article {
 
 .article-container2 article {
   display: flex;
-  width: 23rem;
+  width: auto;
   justify-content: space-around;
   gap: 0.5rem;
 }
