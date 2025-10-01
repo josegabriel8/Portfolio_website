@@ -473,6 +473,34 @@ section {
   font-size: 1.3rem;
 }
 
+.education-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.education-icons-container .icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+.experience-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.experience-icons-container .icon {
+  height: 3rem;
+  width: 3rem;
+}
+
 .about-pic {
   border-radius: 2rem;
   width: 100%;
